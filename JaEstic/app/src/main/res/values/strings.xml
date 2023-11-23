@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">JaEstic</string>
+
+    //main menu (activity_main)
+    <string name="appPhrase">Welcome to JaEstic, feel free to order, Fot-li!</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="sign_up_btn">Sign Up</string>
 </resources>
