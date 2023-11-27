@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.JaEstic" parent="Base.Theme.JaEstic" />
+
+    <style name="BottomNavegation">
+        <item name="android:background">@color/menuColor</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+    </style>
 </resources>
