@@ -23,7 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
+        android:fontFamily="@font/heebo_bold"
         android:text="Welcome to JaEstic, feel free to order, Fot-li!"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,10 +34,11 @@
 
     <Button
         android:id="@+id/signInBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="324dp"
         android:backgroundTint="@color/textColor"
+        android:fontFamily="@font/heebo_bold"
         android:text="@string/sign_in_btn"
         android:textColorHighlight="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,14 +47,16 @@
 
     <Button
         android:id="@+id/signUpBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/boxColor"
+        android:fontFamily="@font/heebo_bold"
         android:text="@string/sign_up_btn"
         android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInBtn"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.098" />
 </androidx.constraintlayout.widget.ConstraintLayout>
